@@ -1,0 +1,22 @@
+@import "./nprogress.scss";
+@import "./style.scss";
+@import "../../components/Sidebar/Sidebar.scss";
+@import "../../components/Layout/Layout.scss";
+@import "../../components/Cards/ProjectCard.scss";
+@import "../../pages/aboutme.scss";
+@import "../../App.scss";
+
+body {
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  //   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  //   sans-serif;
+  font-family: "Poppins", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

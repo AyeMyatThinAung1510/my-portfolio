@@ -1,0 +1,55 @@
+.profile-info-container {
+  // border: 1px solid red;
+  color: #1a7def;
+  .profile-info-me-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    .profile-info-me {
+      width: 160px;
+      height: 160px;
+      border-radius: 100%;
+      background: url("../../static/image/me.jpg") no-repeat center;
+      background-size: cover;
+    }
+  }
+  .profile-info-content {
+    line-height: 25px;
+  }
+  ul {
+    list-style-type: none;
+    line-height: 30px;
+  }
+}
+
+.footer {
+  .footer-icon {
+    padding: 5px;
+
+    i {
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      line-height: 38px;
+      border-radius: 50%;
+      color: #fff;
+      &:hover {
+        animation: social-icon-beat 1s infinite alternate !important;
+      }
+    }
+    .fa-facebook-f {
+      background-color: #1a7def;
+    }
+    .fa-instagram {
+      background-color: #d6249f;
+    }
+    .fa-github {
+      background-color: $greySmoke;
+    }
+  }
+}
+@keyframes social-icon-beat {
+  to {
+    transform: scale(1.1);
+  }
+}
